@@ -1,17 +1,16 @@
 
 public class Main {
     public static void main(String[] args) {
-        int n = 10;
-        int count = 0;
-        while(n > 0){
-            
-            var r = n %2;
-            var s = n / 2;
-            n = r;
-            if(s ==1)
-             count++;
-        }
-        System.out.println(count);
-
+        customArray array = new customArray(2);
+        array.insert(10);
+        array.insert(20);
+        array.insert(30);
+        array.insert(40);
+        array.insert(50);
+        //array.removeAt(5);
+        System.out.println();
+        array.print();
+        var ind =array.indexOf(20);
+        System.out.println("index is "+ ind);
     }
 }
