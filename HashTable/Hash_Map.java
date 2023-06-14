@@ -20,7 +20,7 @@ public class Hash_Map {
         System.out.println(value);
         // can't iterate over HashMap we can use entySet() or keySet()
         for (var item : newHasMap.entrySet()) {
-            System.out.println(item.setValue(value));
+            System.out.println(item);
         }
 
     }
