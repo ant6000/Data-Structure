@@ -4,7 +4,7 @@ import java.util.Map;
 public class RemoveDuplicates{
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5};
-        String sentence = "hello i'm  antor";
+        //String sentence = "hello i'm  antor";
 
         var ch = FirstNonRepetetiveCharacter(array);
         System.out.println(ch);
